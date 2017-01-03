@@ -1,0 +1,23 @@
+who : 周梦佳
+when : 2016-06-05
+what : 学习jquery，完成需求文档
+problem : 进度有些缓慢
+todo : 首页的优化
+
+who : 宋益明
+when : 2016-06-05
+what : 股票对比
+problem : 动态传输数据
+todo : 继续完善
+
+who : 
+when : 2016-06-05
+what : 
+problem : 
+todo : 
+
+who : 
+when : 2016-06-05
+what : 
+problem : 
+todo : 

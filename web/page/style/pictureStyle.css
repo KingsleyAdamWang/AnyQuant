@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    padding-top: 70px;
+    font-size: 14px;
+    color: #000;
+    background-image: url("/images/background.jpg");
+    font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei",
+    \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+
+nav {
+    font-size: 17px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.search {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+/*侧边栏*/
+#sidebar {
+    padding: 0;
+    margin-left: 0;
+}
+
+.list-group {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.menu {
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+.rank-list .panel {
+    padding: 0;
+    margin: 0;
+}
+
+.rank-list .panel .panel-body {
+    padding: 0;
+    margin: 0;
+}
+
+.about .modal {
+    top: 20%;
+}
+
+#aboutLabel {
+    text-transform: lowercase;
+}

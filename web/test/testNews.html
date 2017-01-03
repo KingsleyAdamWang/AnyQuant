@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试滚动新闻</title>
+    <meta name="description" content="AnyQuant是一个在线电话交易平台"/>
+    <meta name="author" content="Ultraviolet"/>
+    <link href="../images/icon.png" rel="icon"/>
+    <link href="../reference/news/css/normalize.css" rel="stylesheet"/>
+    <link href="../reference/news/css/default.css" rel="stylesheet"/>
+    <link href="../reference/news/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../reference/news/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="../reference/news/css/site.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-list-alt"></span><b>News</b></div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="demo1">
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/1.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/2.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/3.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/4.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/5.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/6.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li class="news-item">
+                            <table cellpadding="4">
+                                <tr>
+                                    <td><img src="../reference/news/images/7.png" width="60px" class="img-circle"/></td>
+                                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in venenatis
+                                        enim... <a href="#">Read more...</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="../page/js/jquery.min.js"></script>
+<script src="../reference/news/js/jquery.bootstrap.newsbox.min.js"></script>
+<script>
+    $(function () {
+        $(".demo1").bootstrapNews({
+            newsPerPage: 5,
+            autoplay: true,
+            pauseOnHover: true,
+            direction: 'up',
+            newsTickerInterval: 4000,
+            onToDo: function () {
+                //console.log(this);
+            }
+        })
+    });
+</script>
+</html>

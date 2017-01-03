@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding-top: 70px;
+    background-image: url("/images/background.jpg");
+    font-family: "Arial", "Hiragino Sans GB", "Microsoft YaHei",
+    \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+
+nav {
+    font-size: 17px;
+}
+
+a {
+    cursor: pointer;
+}
+
+#main-content .panel {
+    margin-bottom: 40px;
+}
+
+#main-content .well {
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.name .name_1 {
+    padding: 20px;
+}
+
+.name .name_2 {
+    float: right;
+}
+
+.slider-contract .well {
+    margin-bottom: 0;
+}
+
+.slider-contract .well h3{
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.slider-contract .well .col-md-1 span {
+
+}
+
+/*.slider {*/
+    /*padding-left: 200px;*/
+    /*padding-right: 40px;*/
+/*}*/
+
+.slider .range-bar {
+    margin-top: 20px;
+    height: 10px;
+    top: -10px;
+}
+
+.slider .range-handle {
+    height: 25px;
+    width: 25px;
+    top: -10px;
+}
+
+#mymodal h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+/*#stock-1, #stock-2 .btn {*/
+    /*display: inline-block;*/
+/*}*/
+
+#stockList .btn {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.about .modal {
+    top: 20%;
+}
